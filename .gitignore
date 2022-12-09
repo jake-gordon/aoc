@@ -1,0 +1,5 @@
+# .NET working directories
+*bin*
+*obj*
+# xournal drawings
+*.xopp
