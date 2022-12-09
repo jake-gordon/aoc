@@ -12,6 +12,7 @@ Although I only have a couple weeks of casual experience with the language, many
 
           --------Part 1---------   --------Part 2---------
     Day       Time    Rank  Score       Time    Rank  Score
+      9   02:18:49   14166      0   02:47:20   10750      0
       8   02:37:57   18765      0   03:09:18   16486      0
       7   04:31:38   21291      0   04:53:07   20812      0
       6   14:29:35   81940      0   14:34:00   80757      0
