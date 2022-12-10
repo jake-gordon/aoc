@@ -192,7 +192,7 @@ class Program
 	public int BestScenicScore()
 	{
 	    return  (from j in Enumerable.Range(0,treeHeights.GetLength(0))
-		     from k in Enumerable.Range(0,treeHeights.GetLength(0))
+		     from k in Enumerable.Range(0,treeHeights.GetLength(1))
 		     let score = ScenicScore(j,k)
 		     orderby score descending
 		     select score).First();
@@ -200,7 +200,7 @@ class Program
 	public int BestInvisibleScenicScore()
 	{
 	    return  (from j in Enumerable.Range(0,treeHeights.GetLength(0))
-		     from k in Enumerable.Range(0,treeHeights.GetLength(0))
+		     from k in Enumerable.Range(0,treeHeights.GetLength(1))
 		     where !IsVisible(j,k)
 		     let score = ScenicScore(j,k)
 		     orderby score descending
