@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 plt.rcParams.update({"text.usetex": True})
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-with open('./map.visible') as file: visibleMap = np.array([[int(x) for x in row.split()] for row in file])
-with open('./map.scenic') as file: scenicMap = np.array([[int(x) for x in row.split()] for row in file])
+with open('./map-visible.out') as file: visibleMap = np.array([[int(x) for x in row.split()] for row in file])
+with open('./map-scenic.out') as file: scenicMap = np.array([[int(x) for x in row.split()] for row in file])
 
 fig, ax = plt.subplots(1,3,figsize=(12,36))
 im0 = ax[0].imshow(visibleMap, interpolation="nearest", origin="upper",
@@ -42,5 +42,5 @@ ax[2].set_xticklabels([]);
 ax[2].set_yticklabels([]);
 ax[2].set_title("Scores for Invisible Sites");
 plt.tight_layout()
-plt.savefig("./map.png",bbox_inches="tight",dpi=600)
+plt.savefig("./map.png",bbox_inches="tight",dpi=300)
 # plt.show()
