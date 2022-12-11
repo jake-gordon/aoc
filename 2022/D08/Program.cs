@@ -7,7 +7,7 @@ class Program
     {
 	// part 1
 	TreeMap heightMap = new TreeMap("./map.dat");
-	// TreeMap heightMap = new TreeMap("./testmap.dat");
+	// TreeMap heightMap = new TreeMap("./map-test.dat");
 	// heightMap.PrintMap();
 	// heightMap.PrintVisibleMap();
 	// heightMap.PrintScenicMap();

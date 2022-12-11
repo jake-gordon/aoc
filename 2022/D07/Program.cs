@@ -7,7 +7,7 @@ class Program
     {
 	// part 1
 	// Directory filesystem = ExecuteCommands("./commands.dat");
-	Directory filesystem = ExecuteCommands("./testcommands.dat");
+	Directory filesystem = ExecuteCommands("./commands-test.dat");
 	// filesystem.ListDirectoryRecursive("\t",0);
 	int maxSize = 100000;
 	int count = filesystem.CountDirIfSmallerThan(maxSize);

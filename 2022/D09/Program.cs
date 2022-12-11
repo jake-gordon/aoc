@@ -6,8 +6,8 @@ class Program
     static void Main(string[] args)
     {
 	string[] steps = GetHeadSteps("./motion.dat");
-	// string[] steps = GetHeadSteps("./testmotion1.dat");
-	// string[] steps = GetHeadSteps("./testmotion2.dat");
+	// string[] steps = GetHeadSteps("./motion-test1.dat");
+	// string[] steps = GetHeadSteps("./motion-test2.dat");
 
 	// part 1
 	KnotBridge bridge = new KnotBridge(2);
