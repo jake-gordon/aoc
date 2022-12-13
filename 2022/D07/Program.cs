@@ -122,7 +122,7 @@ class Program
 	}
 	public int TotalDirectorySize()
 	{
-	    int total =(from f in Files select f.Size).Sum();
+	    int total = (from f in Files select f.Size).Sum();
 	    foreach (Directory d in SubDirectories) total += d.TotalDirectorySize();
 	    return total;
 	}
