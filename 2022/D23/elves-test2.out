@@ -1,0 +1,14 @@
+After 10 rounds the number of empty ground tiles in the minimal box is 110.
+At round 20 we need to move 0 Elves so we're done.
+. . . . . . . # . . . . . . 
+. . . . # . . . . . . # . . 
+. . # . . . . . # . . . . . 
+. . . . . . # . . . . . . . 
+. . . # . . . . # . # . . # 
+# . . . . . . . . . . . . . 
+. . . . # . . . . . # . . . 
+. . # . . . . . # . . . . . 
+. . . . # . # . . . . # . . 
+. . . . . . . . . # . . . . 
+. . . . # . . . . . . # . . 
+. . . . . . . # . . . . . . 
