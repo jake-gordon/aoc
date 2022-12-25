@@ -11,6 +11,7 @@ I plan to complete the puzzles in `C#` this year as an opportunity to learn more
 
           --------Part 1---------   --------Part 2---------
     Day       Time    Rank  Score       Time    Rank  Score
+     25   02:40:05    4177      0          -       -      -
      24   19:04:42    8632      0   19:19:50    8378      0
      23   15:11:48   10111      0   15:20:38    9806      0
      22   21:44:02   12707      0          -       -      -
